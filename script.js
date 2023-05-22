@@ -35,15 +35,15 @@ document.getElementById('submit').addEventListener('click', function () {
     commentinput.value = '';
 
 })
-// document.getElementById('deleteConfirm').addEventListener('focus', function () {
-//     document.body.style.backgroundColor = 'red';
-// })
-// document.getElementById('DeleteButton').addEventListener('click', function () {
-//     document.getElementById('comnt').style.display = 'none'
-// })
-// document.getElementById('deleteConfirm').addEventListener('keydown', function () {
-//     document.getElementById('comnt').style.display = 'none'
-// })
+document.getElementById('deleteConfirm').addEventListener('focus', function () {
+    document.body.style.backgroundColor = 'red';
+ })
+ document.getElementById('DeleteButton').addEventListener('click', function () {
+    document.getElementById('comnt').style.display = 'none'
+})
+ document.getElementById('deleteConfirm').addEventListener('keydown', function () {
+    document.getElementById('comnt').style.display = 'none'
+})
 document.getElementById('deleteConfirm').addEventListener('keyup', function (event) {
     const Typed = document.getElementById('deleteConfirm');
     const Action = document.getElementById('DeleteButton');
